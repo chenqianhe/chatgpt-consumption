@@ -1,0 +1,24 @@
+{
+  "name": "chatgpt-consumption",
+  "version": "1.0.0",
+  "description": "Show how many tokens and resources the conversation consumed",
+  "main": "index.js",
+  "scripts": {
+    "dev-popup": "npx tailwindcss -i ./popup/index.css -o ./popup/output.css --watch",
+    "build-popup": "npx tailwindcss -i ./popup/index.css -o ./popup/output.css",
+    "build-background": "webpack --mode=production",
+    "build": "npm run build-popup && npm run build-background",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.12",
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "js-tiktoken": "^1.0.10"
+  }
+}
