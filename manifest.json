@@ -3,7 +3,6 @@
   "name": "ChatGPT Consumption",
   "description": "Show how many tokens and resources the conversation consumed",
   "version": "1.0",
-  "permissions": ["activeTab"],
   "action": {
     "default_popup": "popup/popup.html"
   },
