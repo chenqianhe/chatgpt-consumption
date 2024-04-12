@@ -1,4 +1,4 @@
-# ChatGPT Consumption
+# [ChatGPT Consumption](https://chromewebstore.google.com/detail/inlfplkijidejppdffcpehojlpndjigi)
 
 ![](/images/logo.png)
 
