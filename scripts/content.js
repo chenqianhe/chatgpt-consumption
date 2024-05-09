@@ -11,7 +11,7 @@ var currentURL;
 new MutationObserver(() => {
     if (window.location.href !== currentURL) {
         currentURL = window.location.href;
-        if (currentURL.startsWith('https://chat.openai.com/')) {
+        if (currentURL.startsWith('https://chat.openai.com/') || currentURL.startsWith('https://chatgpt.com/')) {
             if (document.readyState === 'complete' || document.readyState !== 'loading') {
                 injectCustomElement();
             } else {
