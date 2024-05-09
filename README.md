@@ -1,4 +1,4 @@
-# ChatGPT Consumption
+# [ChatGPT Consumption](https://chromewebstore.google.com/detail/inlfplkijidejppdffcpehojlpndjigi)
 
 ![](/images/logo.png)
 
@@ -15,6 +15,9 @@ ChatGPT Consumption is an innovative Chrome extension designed to enhance your C
 - User-Friendly Interface: Designed with simplicity in mind, our extension seamlessly integrates into your browsing experience without overwhelming you with data, making it accessible for everyone.
 
 ## Installation
+
+https://chromewebstore.google.com/detail/inlfplkijidejppdffcpehojlpndjigi
+
 1. Clone this repository to your local machine. 
 2. Open Google Chrome and navigate to chrome://extensions. 
 3. Enable "Developer mode" in the top right corner. 
@@ -22,6 +25,7 @@ ChatGPT Consumption is an innovative Chrome extension designed to enhance your C
 5. The ChatGPT Consumption extension should now be visible in your extensions list and ready to use.
 
 ## Usage
+
 1. Open ChatGPT in your Chrome browser. 
 2. Start a conversation as you normally would. 
 3. The ChatGPT Consumption extension will automatically display the token count and estimated water consumption for each conversation in real-time.
