@@ -91,7 +91,7 @@ async function injectCustomElement() {
     // 创建一个观察器
     var mainElement = document.querySelector("main");
     if (mainElement) {
-        new MutationObserver(updateCount).observe(mainElement.children[1].children[0],
+        new MutationObserver(updateCount).observe(mainElement.children[0].children[0],
             {childList: true, characterData: true, subtree: true}
         );
     } else {
